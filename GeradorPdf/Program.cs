@@ -159,7 +159,7 @@ public class GeradorPDFApplication
                 });
 
                 // Configurar o cabeçalho de autorização e tipo de conteúdo
-                string apiKey = "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";
+                string apiKey = ""; // Adicione sua chave api
 
 
                 client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
